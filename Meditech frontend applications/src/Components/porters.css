@@ -1,0 +1,128 @@
+/*back btn*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+#previousbtn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#previousbtn{
+  font-size: 20px;
+  background-color: #125465;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 40px;
+
+}
+
+
+.mainminicontainer{
+	position: absolute;
+  width: 800px;
+  height: 480px;
+  left: 289px;
+  top: 42px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 40px;
+}
+
+#porterstitle {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-family: "Poppins";
+  color: #125465;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  width: 189px;
+  height: 83px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  }
+
+  .porterstablecontainer{
+    position: absolute;
+    width: 714px;
+    height: 280px;
+    margin-top: 150px;
+    margin-left: 40px;
+    border-radius: 40px;
+    overflow: scroll;
+  }
+
+  .porterstablecontainer table{
+    width: 100%;
+    height: auto;
+  }
+
+  .porterstablecontainer th, td {
+    text-align: center;
+    padding: 6px;
+    height: 50px;
+    color: #125465;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+  }
+
+  .porterstablecontainer td{
+    color: #272727;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .porterstablecontainer td button {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 90px;
+    height: 32px;
+    background: #4D97FB;
+    border-radius: 15px;
+  }
+
+    /* search bar */
+  .porterstopnav input[type=text] {
+    float: right;
+    padding: 6.35498px 25px;
+    margin-top: 100px;
+    margin-right: 25px;
+    font-size: 15.8874px;
+    border-radius: 14.2987px;
+    background: rgba(255, 255, 255, 0.68);
+    width: 208.13px;
+    height: 36.54px;
+    position: static;
+    display: flex;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 24px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+    
+    .topnav input[type=text] {
+      border: 1px solid #ccc;  
+    
+    }
+}

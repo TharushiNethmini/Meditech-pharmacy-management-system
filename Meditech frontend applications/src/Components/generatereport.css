@@ -1,0 +1,124 @@
+ .mainminicontainer{
+	position: absolute;
+  width: 800px;
+  height: 480px;
+  left: 289px;
+  top: 42px;
+  background: rgba(255, 255, 255, 0.68);
+  border-radius: 40px;
+}
+
+#generatereportitle {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 100px;
+  font-family: "Poppins";
+  color: #125465;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  }
+
+.from{
+    position: absolute;
+    height: 110px;
+    width: 260px;
+    background: rgba(255, 255, 255, 0.74); 
+    border-radius: 30px;
+    margin-top:50px;
+    margin-left: 100px;
+}
+
+
+/* .deli_status{
+    position: absolute;
+    height: 110px;
+    width: 260px;
+    background: rgba(255, 255, 255, 0.74); 
+    border-radius: 30px;
+    margin-top:180px;
+    margin-left: 410px;
+} */
+
+
+.from p16 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #125465;
+  
+  }
+
+  #datechange{
+    margin-top: 50px;
+    margin-left: 55px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  /* .deli_status p22 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #125465;
+  
+  } */
+
+  /* .deli_status p23 {
+    margin-top: 85px;
+    margin-left: 140px;
+    position: absolute;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+  
+  } */
+
+ 
+
+  /* generate report btn to get the report*/
+  .genreport{
+    margin-top: 190px;
+    margin-left: 40px;
+  }
+
+  #genreport {
+    background-color: #0464FC;
+    border: none;
+    color:white;
+    font-family: "Poppins";
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 24px;
+    font-size: 20px;
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 140px;
+  }
+
+  #genreport:hover {
+    background-color: #012765;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  } 

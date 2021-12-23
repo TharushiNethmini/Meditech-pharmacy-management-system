@@ -1,0 +1,238 @@
+
+.mainminicontainer{
+	position: absolute;
+    width: 800px;
+    height: 480px;
+    left: 289px;
+    top: 42px;
+    background: rgba(255, 255, 255, 0.68);
+    border-radius: 40px;
+}
+
+#ordertitle {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: "Poppins";
+    color: #125465;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+    width: 189px;
+    height: 83px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 82px;
+  }
+
+.history{
+    position: absolute;
+    width: 338px;
+    height: 158px;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 30px;
+    margin-top:140px;
+    margin-left: 50px;
+}
+
+.pending{
+    position: absolute;
+    width: 338px;
+    height: 158px;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 30px;
+    margin-top:140px;
+    margin-left: 410px;
+}
+
+.assigned{
+    position: absolute;
+    width: 215.91px;
+    height: 122.85px;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 27.92px;
+    margin-top:310px;
+    margin-left: 50px;
+}
+
+.delivered{
+    position: absolute;
+    width: 215.91px;
+    height: 122.85px;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 27.92px;
+    margin-top:310px;
+    margin-left: 290px;
+}
+
+.returned{
+    position: absolute;
+    width: 215.91px;
+    height: 122.85px;
+    background: rgba(255, 255, 255, 0.74);
+    border-radius: 27.92px;
+    margin-top:310px;
+    margin-left: 530px;
+}
+
+.history p6 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 95px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #125465;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 55px;
+    width: 126px;
+    height: 56px;
+  }
+
+  .history p7 {
+    margin-top: 85px;
+    margin-left: 135px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    color: #272727;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 55px;
+    width: 45px;
+    height: 56px;
+  }
+
+  #next{
+    width: 43px;
+    height: 43px;
+    margin-top: 82px;
+    margin-left: 240px;
+  }
+
+  .pending p8 {
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 95px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #125465;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 55px;
+    width: 126px;
+    height: 56px;
+  
+  }
+
+  .pending p9 {
+    margin-top: 85px;
+    margin-left: 140px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    color: #272727;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 55px;
+    width: 45px;
+    height: 56px;
+  }
+
+  .assigned p10 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #125465;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    width: 115px;
+    height: 38px;
+  }
+
+  .assigned p11 {
+    margin-top: 65px;
+    margin-left: 95px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 37px;
+    width: 23px;
+    height: 38px;
+  }
+
+  .delivered p12 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #125465;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    width: 115px;
+    height: 38px;
+  }
+
+  .delivered p13 {
+    margin-top: 65px;
+    margin-left: 95px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 37px;
+    width: 23px;
+    height: 38px;
+  }
+
+
+  .returned p14 {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    font-family: "Poppins";
+    text-align: center;
+    color: #125465;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    width: 115px;
+    height: 38px;
+  }
+
+  .returned p15 {
+    margin-top: 65px;
+    margin-left: 95px;
+    position: absolute;
+    font-family: "Poppins";
+    text-align: center;
+    color: #000000;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 37px;
+    width: 23px;
+    height: 38px;
+  }
+
